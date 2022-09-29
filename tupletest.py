@@ -1,11 +1,11 @@
-def TupleTest(tupleArr, n) :
+def TupleTest(tupleArr, n):
+    
     #initialising variables
-    tupLen = len(tupleArr)
     good = 0
     i = 0
 
     #checking numbers  
-    while (i + 2 < tupLen) :
+    while (i + 2 < n) :
         count = 0
         if (tupleArr[i] == tupleArr[i + 1]) :
             count += 1
